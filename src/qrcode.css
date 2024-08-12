@@ -1,0 +1,81 @@
+.app-container
+{
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.logo
+{
+    height: 15rem;
+}
+h1
+{
+    font-weight: 700;
+}
+.buttons
+{
+    gap: 1rem;
+    justify-items: center;
+}
+input
+{
+    padding: 0.3rem 0.5rem;
+    border: solid 0.1rem ;
+    border-radius: 5px;
+    width: max-content;
+}
+button
+{
+    padding: 0.5rem 0.8rem;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 0 0 1rem 1rem;
+    /* border: 0.1rem solid; */
+}
+.gen
+{
+    background-color: #FF5A5F;
+}
+.dow
+{
+    background-color: #087E8B;
+}
+.gen:disabled
+{
+    background-color: #b0b5bb;
+}
+.name
+{
+    color: #FF5A5F;
+}
+.proj-title
+{
+    font-family: "Anton", sans-serif;
+    color: #3C3C3C;
+}
+.align
+{
+    text-align: end;
+}
+.pic-align
+{
+    text-align: start;
+}
+
+@media screen and (max-width: 768px) {
+
+    .align
+    {
+        text-align: center;
+    }
+    .pic-align
+    {
+        text-align: center;
+    }
+    
+}
